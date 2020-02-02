@@ -1,1 +1,1 @@
-fpm-extra
+fpm-extra-alpine
