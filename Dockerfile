@@ -9,7 +9,7 @@ RUN docker-php-ext-configure gd \
         --with-freetype \
         --with-jpeg
 
-RUN docker-php-ext-install mysqli gd mbstring pdo_mysql opcache
+RUN docker-php-ext-install mysqli gd pdo_mysql opcache
 
 RUN apk del autoconf g++ libtool make \
     && rm -rf /tmp/* /var/cache/apk/*
